@@ -29,6 +29,22 @@
       This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.
     </p>
   </example>
+
+  <example>
+    <statement>
+      <p>
+        The statement of the example, since it will have a solution.  What is the solution? <m>
+      \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\ldots} } } }
+    </m>
+      </p>
+            
+    </statement>
+    <solution>
+      <p>
+        This is the solution.
+      </p>
+    </solution>
+  </example>
   
 </section>
 

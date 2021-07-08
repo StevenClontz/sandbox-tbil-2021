@@ -15,7 +15,7 @@
   <book xml:id="my-great-book">
     <!-- The book needs a title and can have a subtitle  -->
     <title>TBIL 2021 Sandbox</title>
-    <subtitle>An example PreTeXt Document</subtitle>
+    <subtitle>An example PreTeXt Document!!</subtitle>
 
     <!-- Now we include files containing each main devision.       -->
 
@@ -28,7 +28,7 @@
     <!-- title of the chapter is, rename the file something based  -->
     <!-- on the title (ch-shorttitle.ptx) both here and on disk    -->
     <xi:include href="./ch_first-chapter.ptx" />
-    <xi:include href="./ch_empty.ptx"/>
+    <xi:include href="./ch_hello.ptx"/>
     <!-- Of course you will want to add more chapters as you proceed-->
 
     <!-- The final chapter contains a wide variety of elements to  -->

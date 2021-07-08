@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="ch-hello" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hello World</title>
+  <introduction>
+    <p>This is where we'll all say hello!</p>
+  </introduction>
+  <xi:include href="sec_clontz.ptx" />
+
+</chapter>
