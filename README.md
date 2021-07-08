@@ -1,4 +1,5 @@
-# My Great Book
+# TBIL 2021 Institute Sandbox
 
-TODO this should have some simple build information
-and/or a link to documentation
+This is a PreTeXt document for you to experiment with.
+
+The results of `pretext publish` may be viewed at 
