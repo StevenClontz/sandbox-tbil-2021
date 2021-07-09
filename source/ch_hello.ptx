@@ -6,5 +6,6 @@
     <p>This is where we'll all say hello!</p>
   </introduction>
   <xi:include href="sec_clontz.ptx" />
+  <xi:include href="sec_noble.ptx" />
 
 </chapter>
