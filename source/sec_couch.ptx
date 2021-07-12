@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec_clontz" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec_couch" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>PJ Couch's Hello</title>
   <introduction>
     <p>
       Hi everyone, I'm PJ.
     </p>
   </introduction>
-  <subsection xml:id="subsec-clontz-activity">
+  <subsection xml:id="subsec-couch-activity">
     <title>An example activity.</title>
     <p>
       Content of the subsection.
