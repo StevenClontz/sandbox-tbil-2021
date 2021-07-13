@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2021-07-13T18:11:59Z       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Sean Fitzpatrick's Hello</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    useLabelIds: true,
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore",
+    processHtmlClass: "has_am",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/0.13/pretext_add_on.js"></script><script xmlns:svg="http://www.w3.org/2000/svg" src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script xmlns:svg="http://www.w3.org/2000/svg">sagecellEvalName='Evaluate (Sage)';
+</script><link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/banner_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/toc_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/knowls_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/style_default.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link xmlns:svg="http://www.w3.org/2000/svg" href="https://pretextbook.org/css/0.31/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link xmlns:svg="http://www.w3.org/2000/svg" href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="mathbook-book has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div xmlns:svg="http://www.w3.org/2000/svg" id="latex-macros" class="hidden-content" style="display:none">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="my-great-book.html"><span class="title">TBIL 2021 Sandbox:</span> <span class="subtitle">An example PreTeXt Document!!</span></a></h1>
+<p class="byline">Me</p>
+</div>
+</div></div>
+<nav xmlns:svg="http://www.w3.org/2000/svg" id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<a class="index-button toolbar-item button" href="index-1.html" title="Index">Index</a><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="sec_couch.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="ch-hello.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="ch_pretext-features.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="sec_couch.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="ch-hello.html" title="Up">Up</a><a class="next-button button toolbar-item" href="ch_pretext-features.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div xmlns:svg="http://www.w3.org/2000/svg" id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1">Colophon</a></li>
+<li><a href="dedication-1.html" data-scroll="dedication-1">Dedication</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1">Acknowledgements</a></li>
+<li><a href="preface.html" data-scroll="preface">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch-first.html" data-scroll="ch-first"><span class="codenumber">1</span> <span class="title">My First Chapter</span></a><ul>
+<li><a href="sec_firstch-intro.html" data-scroll="sec_firstch-intro">Introduction to First Chapter</a></li>
+<li><a href="sec_firstch-examples.html" data-scroll="sec_firstch-examples">Examples</a></li>
+<li><a href="ex_firstch.html" data-scroll="ex_firstch">My Exercises</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch-hello.html" data-scroll="ch-hello"><span class="codenumber">2</span> <span class="title">Hello World</span></a><ul>
+<li><a href="sec_clontz.html" data-scroll="sec_clontz">Steven Clontz's Hello</a></li>
+<li><a href="sec_noble.html" data-scroll="sec_noble">Abby Noble's Hello</a></li>
+<li><a href="sec_couch.html" data-scroll="sec_couch">PJ Couch's Hello</a></li>
+<li><a href="sec_fitzpatrick.html" data-scroll="sec_fitzpatrick" class="active">Sean Fitzpatrick's Hello</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="ch_pretext-features.html" data-scroll="ch_pretext-features"><span class="codenumber">3</span> <span class="title">Examples of PreTeXt features</span></a><ul>
+<li><a href="sec_ptxfeat-blocks.html" data-scroll="sec_ptxfeat-blocks">Environments and Blocks</a></li>
+<li><a href="section-2-2.html" data-scroll="section-2-2">Another section</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter"><span class="title">Backmatter</span></a></li>
+<li class="link"><a href="solutions-1.html" data-scroll="solutions-1"><span class="codenumber">A</span> <span class="title">Selected Hints</span></a></li>
+<li class="link"><a href="solutions-2.html" data-scroll="solutions-2"><span class="codenumber">B</span> <span class="title">Selected Solutions</span></a></li>
+<li class="link"><a href="appendix-1.html" data-scroll="appendix-1"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></li>
+<li class="link"><a href="index-1.html" data-scroll="index-1"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="mathbook-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="sec_fitzpatrick"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.4</span> <span class="title">Sean Fitzpatrick's Hello</span>
+</h2>
+<section class="introduction" id="introduction-7"><p id="p-110">Hi all! I'm curious to see where this project is heading!</p></section><section class="subsection" id="subsec-fitzpatrick-activity"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.4.1</span> <span class="title">An example activity.</span>
+</h3>
+<p id="p-111">Content of the subsection.</p>
+<p id="p-112">More content.</p>
+<article class="activity project-like" id="Bhg"><h6 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">4</span><span class="period">.</span>
+</h6>
+<p id="uIa">Consider the autonomous differential equation</p>
+<div class="displaymath">
+\begin{equation*}
+\frac{dy}{dt} = -\frac{1}{2}y(y-4)\text{.}
+\end{equation*}
+</div>
+<ol id="aPj" class="lower-alpha">
+<li id="Yqc">
+<p id="XkJ">Make a plot of \(\frac{dy}{dt}\) versus \(y\) on the axes provided in <a class="xref" data-knowl="./knowl/F-7-2-act-2-2-dydt.html" title="Figure 2.4.1">Figure 2.4.1</a>. Looking at the graph, for what values of \(y\) does \(y\) increase and for what values of \(y\) does \(y\) decrease?</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel bottom" style="width:50%;"><figure class="figure figure-like" id="DrS"><img src="external/7_2_Act1_1.svg" role="img" class="contained" alt=""><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.1<span class="period">.</span></span><span class="space"> </span>Axes for plotting \(dy/dt\) vs \(y\) for \(\frac{dy}{dt} = -\frac 12 y(y-4)\text{.}\)</figcaption></figure></div>
+<div class="sbspanel bottom" style="width:44%;"><figure class="figure figure-like" id="jzb"><img src="external/7_2_Act2_2.svg" role="img" class="contained" alt=""><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.2<span class="period">.</span></span><span class="space"> </span>Axes for plotting the slope field for \(\frac{dy}{dt} = -\frac 12 y(y-4)\text{.}\)</figcaption></figure></div>
+</div></div>
+</li>
+<li id="Exl"><p id="PGk">Identify any equilibrium solutions of the given differential equation.</p></li>
+<li id="kEu"><p id="vNt">Now sketch the slope field for the given differential equation on the axes provided in <a class="xref" data-knowl="./knowl/F-7-2-act-2-2.html" title="Figure 2.4.2">Figure 2.4.2</a>.</p></li>
+<li id="QLD"><p id="bUC">Sketch the solutions to the given differential equation that correspond to initial values \(y(0)=-1, 0, 1, \ldots, 5\text{.}\)</p></li>
+<li id="wSM"><p id="IbL">An equilibrium solution \(\overline{y}\) is called <em class="emphasis">stable</em>  if nearby solutions converge to \(\overline{y}\text{.}\) This means that if the initial condition varies slightly from \(\overline{y}\text{,}\) then \(\lim_{t\to\infty}y(t) = \overline{y}\text{.}\) Conversely, an equilibrium solution \(\overline{y}\) is called <em class="emphasis">unstable</em>  if nearby solutions are pushed away from \(\overline{y}\text{.}\) Using your work above, classify the equilibrium solutions you found in (b) as either stable or unstable.</p></li>
+<li id="cZV"><p id="oiU">Suppose that \(y(t)\) describes the population of a species of living organisms and that the initial value \(y(0)\) is positive. What can you say about the eventual fate of this population?</p></li>
+<li id="Jhe"><p id="Uqd">Now consider a general autonomous differential equation of the form \(dy/dt = f(y)\text{.}\) Remember that an equilibrium solution \(\overline{y}\) satisfies \(f(\overline{y}) = 0\text{.}\) If we graph \(dy/dt = f(y)\) as a function of \(y\text{,}\) for which of the differential equations represented in <a class="xref" data-knowl="./knowl/F-7-2-act-2-3a.html" title="Figure 2.4.3">Figure 2.4.3</a> and <a class="xref" data-knowl="./knowl/F-7-2-act-2-3b.html" title="Figure 2.4.4">Figure 2.4.4</a> is \(\overline{y}\) a stable equilibrium and for which is \(\overline{y}\) unstable? Why?</p></li>
+</ol>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:1.5%;margin-right:1.5%;">
+<div class="sbspanel top" style="width:48.4536082474227%;"><figure class="figure figure-like" id="itI"><img src="external/7_2_Act2_3.svg" role="img" class="contained" alt=""><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.3<span class="period">.</span></span><span class="space"> </span>Plot of \(\frac{dy}{dt}\)  as a function of \(y\text{.}\)</figcaption></figure></div>
+<div class="sbspanel top" style="width:48.4536082474227%;"><figure class="figure figure-like" id="OAR"><img src="external/7_2_Act2_4.svg" role="img" class="contained" alt=""><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.4<span class="period">.</span></span><span class="space"> </span>Plot of \(\frac{dy}{dt}\)  as a different function of \(y\text{.}\)</figcaption></figure></div>
+</div></div>
+<div class="solutions">
+<a data-knowl="" class="id-ref answer-knowl original" data-refid="hk-zNs" id="zNs"><span class="type">Answer.</span> </a><div class="hidden-content tex2jax_ignore" id="hk-zNs"><div class="answer solution-like"><ol id="Cmz" class="lower-alpha">
+<li id="pon">
+<p id="Axm">When \(y \lt 0\) and when \(y \gt 4\text{,}\) \(y\) is a decreasing function of \(t\text{.}\) When \(0 \lt y \lt 4\text{,}\) \(y\) is a increasing function of \(t\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_dydt_plot_soln.svg" role="img" class="contained" alt=""></div></div></div>
+</li>
+<li id="Vvw"><p id="gEv">\(y = 0\) and \(y = 4\text{.}\)</p></li>
+<li id="BCF"><div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_slope_field_soln.svg" role="img" class="contained" alt=""></div></div></div></li>
+<li id="hJO"><div class="sidebyside"><div class="sbsrow" style="margin-left:25%;margin-right:25%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_trajectories_soln.svg" role="img" class="contained" alt=""></div></div></div></li>
+<li id="NQX"><p id="MLE">\(y = 4\) is stable; \(y = 0\) is unstable.</p></li>
+<li id="tYg"><p id="sSN">Tend to 4.</p></li>
+<li id="afp"><p id="YZW"><a class="xref" data-knowl="./knowl/F-7-2-act-2-3a.html" title="Figure 2.4.3">Figure 2.4.3</a> is for an ustable equilibrium; <a class="xref" data-knowl="./knowl/F-7-2-act-2-3b.html" title="Figure 2.4.4">Figure 2.4.4</a> is for a stable equilibrium.</p></li>
+</ol></div></div>
+<a data-knowl="" class="id-ref solution-knowl original" data-refid="hk-TGj" id="TGj"><span class="type">Solution.</span> </a><div class="hidden-content tex2jax_ignore" id="hk-TGj"><div class="solution solution-like"><ol id="Wfq" class="lower-alpha">
+<li id="Gmy">
+<p id="Fhf">The graph below is a plot of \(\frac{dy}{dt}\) versus \(y\text{.}\) We see that when \(y \lt 0\) and when \(y \gt 4\text{,}\) \(\frac{dy}{dt} \lt 0\) and hence \(y\) is a decreasing function of \(t\text{.}\) We also see that when \(0 \lt y \lt 4\text{,}\) \(\frac{dy}{dt} \gt 0\) and hence \(y\) is a increasing function of \(t\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_dydt_plot_soln.svg" role="img" class="contained" alt=""></div></div></div>
+</li>
+<li id="mtH"><p id="loo">The equilibrium solutions occur when \(\frac{dy}{dt} = 0\) and so the equilibrium solutions are \(y = 0\) and \(y = 4\text{.}\)</p></li>
+<li id="SAQ">
+<p id="Rvx">Following is a slope field for the differential equation \(\frac{dy}{dt} = -\frac{1}{2}y(y - 4)\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_slope_field_soln.svg" role="img" class="contained" alt=""></div></div></div>
+</li>
+<li id="yHZ">
+<p id="xCG">Below is the slope field for the differential equation \(\frac{dy}{dt} = -\frac{1}{2}y(y - 4)\) along with solutions that satisfy \(y(0) = 1\text{,}\) \(y(0) = 2\text{,}\) \(y(0) = 3\text{,}\) \(y(0) = 4\text{,}\) and \(y(0) = 5\text{.}\)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:30%;margin-right:30%;"><div class="sbspanel top" style="width:100%;"><img src="external/7_2_Act2_trajectories_soln.svg" role="img" class="contained" alt=""></div></div></div>
+</li>
+<li id="ePi"><p id="dJP">The equilibrium solution \(y = 4\) is stable because trajectories nearby approach this constant solution, while the equilibrium solution \(y = 0\) is unstable because trajectories nearby veer away from this constant solution.</p></li>
+<li id="KWr"><p id="JQY">The population will eventually tend to 4.</p></li>
+<li id="rdA"><p id="pYh"><a class="xref" data-knowl="./knowl/F-7-2-act-2-3a.html" title="Figure 2.4.3">Figure 2.4.3</a> is for an ustable equilibrium. This is because if \(y\) is slightly less than \(\bar{y}\text{,}\) then \(\frac{dy}{dt} \lt 0\) and the function \(y(t)\) will be decreasing. In addition, if \(y\) is slightly greater than \(\bar{y}\text{,}\) then \(\frac{dy}{dt} \gt 0\) and the function \(y(t)\) will be increasing. In both situations, \(y(t)\) is “moving away from” \(\bar{y}\text{.}\) <a class="xref" data-knowl="./knowl/F-7-2-act-2-3b.html" title="Figure 2.4.4">Figure 2.4.4</a> is for a stable equilibrium. This is because if \(y\) is slightly less than \(\bar{y}\text{,}\) then \(\frac{dy}{dt} \gt 0\) and the function \(y(t)\) will be increasing. In addition, if \(y\) is slightly greater than \(\bar{y}\text{,}\) then \(\frac{dy}{dt} \lt 0\) and the function \(y(t)\) will be decreasing. In both situations, \(y(t)\) is “moving toward” \(\bar{y}\text{.}\)</p></li>
+</ol></div></div>
+</div></article></section></section></div></main>
+</div>
+</body>
+</html>
