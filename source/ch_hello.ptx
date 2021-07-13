@@ -8,6 +8,6 @@
   <xi:include href="sec_clontz.ptx" />
   <xi:include href="sec_noble.ptx" />
   <xi:include href="sec_couch.ptx" />
-
+  <xi:include href="sec_fitzpatrick.ptx"/>
 
 </chapter>
