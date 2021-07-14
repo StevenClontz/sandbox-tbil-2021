@@ -15,7 +15,7 @@
   <book xml:id="my-great-book">
     <!-- The book needs a title and can have a subtitle  -->
     <title>TBIL 2021 Sandbox</title>
-    <subtitle>An example PreTeXt Document!!</subtitle>
+    <subtitle>An example PreTeXt Document!</subtitle>
 
     <!-- Now we include files containing each main devision.       -->
 
