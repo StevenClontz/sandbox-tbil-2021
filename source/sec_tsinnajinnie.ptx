@@ -13,12 +13,10 @@
       Content of the subsection.
     </p>
     <p>
-      
-      I'm interested in incorporating videos, so I am copying code from Sean Fitzpatrick's hello section. 
+      More content. I copied Sean Fitzpatrick's code to embed a video.
     </p>
-    <video youtube="M14F_oCuxNA&t"/>
-    </p>
-      <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-3" permid="NsL">
+    <video youtube="M14F_oCuxNA"/>
+ <activity xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="act-2-5-3" permid="NsL">
   <statement>
     <p permid="cBJ">
       Use known derivative rules, including the chain rule,
