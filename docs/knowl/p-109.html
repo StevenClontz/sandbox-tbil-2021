@@ -2,7 +2,7 @@
 <html lang="en-US">
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-18T01:50:56Z       *-->
+<!--*       on 2021-07-18T22:41:14Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -15,7 +15,36 @@
 </head>
 <body>
 <h6 xmlns:svg="http://www.w3.org/2000/svg" class="heading"><span class="type">Paragraph</span></h6>
-<p xmlns:svg="http://www.w3.org/2000/svg">Since a line is vertical whenever its slope is undefined, we seek all points \((x,y)\) that make \(\frac{dy}{dx}\) undefined. This will occur precisely when the denominator, \(5y^4 - 15y^2 + 4\text{,}\) is zero. Using a graphing utility or computer algebra system to solve the equation \(5y^4 - 15y^2 + 4 = 0\text{,}\) we find that this happens at the four approximate \(y\)-values \(y \approx \pm 0.543912, \pm 1.64443\text{.}\) For each such value, we use the original equation \(x = y^5 - 5y^3 + 4y\) to find the \(x\)-value of the point. Doing so, we have established that there are four points at which the tangent line is vertical, and they are approximately \((1.418697,0.543912)\text{,}\) \((-1.418697,-0.543912)\text{,}\) \((-3.63143, 1.64443)\text{,}\) and \((3.63143, -1.64443)\text{.}\)</p>
-<span class="incontext"><a href="sec_couch.html#IQj">in-context</a></span>
+<p>We differentiate implicitly, taking the derivative of each side with respect to \(x\text{,}\)</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\frac{d}{dx}[x ]= \frac{d}{dx}[y^5 - 5y^3 + 4y]\text{,}
+\end{equation*}
+</div>
+<p class="continuation">and evaluate the elementary derivative on the left and use the sum rule on the right to find that</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+1 = \frac{d}{dx}[y^5] - \frac{d}{dx}[5y^3] + \frac{d}{dx}[4y]\text{.}
+\end{equation*}
+</div>
+<p class="continuation">By the chain and constant multiple rules, viewing \(y\) as a function of \(x\text{,}\) we now have</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+1 = 5y^4\frac{dy}{dx} - 15y^2\frac{dy}{dx} + 4\frac{dy}{dx}\text{.}
+\end{equation*}
+</div>
+<p class="continuation">Factoring,</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+1 = \frac{dy}{dx}(5y^4 - 15y^2 + 4)\text{,}
+\end{equation*}
+</div>
+<p class="continuation">and therefore</p>
+<div xmlns:svg="http://www.w3.org/2000/svg" class="displaymath">
+\begin{equation*}
+\frac{dy}{dx} = \frac{1}{5y^4 - 15y^2 + 4}\text{.}
+\end{equation*}
+</div>
+<span class="incontext"><a href="sec_couch.html#wBR">in-context</a></span>
 </body>
 </html>
