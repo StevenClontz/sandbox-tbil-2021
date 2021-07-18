@@ -33,6 +33,18 @@
       </p>
     </hint>
   </exercise>
+     <exercise>
+    <statement>
+      <p>
+        Another, with a hint.
+      </p>
+    </statement>
+    <hint>
+      <p>
+        The hint.
+      </p>
+    </hint>
+  </exercise>
   
 </exercises>
 
