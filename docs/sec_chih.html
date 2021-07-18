@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--********************************************-->
 <!--*       Generated from PreTeXt source      *-->
-<!--*       on 2021-07-18T22:41:13Z       *-->
+<!--*       on 2021-07-18T22:58:57Z       *-->
 <!--*   A recent stable commit (2020-08-09):   *-->
 <!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
 <!--*                                          *-->
@@ -151,13 +151,13 @@
 <main class="main"><div id="content" class="pretext-content"><section xmlns:svg="http://www.w3.org/2000/svg" class="section" id="sec_chih"><h2 class="heading hide-type">
 <span class="type">Section</span> <span class="codenumber">2.8</span> <span class="title">Tien Chih's Hello</span>
 </h2>
-<section class="introduction" id="introduction-11"><p id="p-228">Hi everyone, I've done some PreTeXt and cocalc. but not together!  This is cool.</p></section><section class="subsection" id="subsec-chih-activity"><h3 class="heading hide-type">
+<section class="introduction" id="introduction-11"><p id="p-197">Hi everyone, I've done some PreTeXt and cocalc. but not together!  This is cool.</p></section><section class="subsection" id="subsec-chih-activity"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">2.8.1</span> <span class="title">An example activity.</span>
 </h3>
-<p id="p-229">Content of the subsection.</p>
-<p id="p-230">More content.</p>
+<p id="p-198">Content of the subsection.</p>
+<p id="p-199">More content.</p>
 <article class="activity project-like" id="Lei"><h6 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8</span><span class="period">.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7</span><span class="period">.</span>
 </h6>
 <p id="eWZ">Determine if the Divergence Test applies to the following series. If the test does not apply, explain why. If the test does apply, what does it tell us about the series?</p>
 <ol class="lower-alpha cols3">
@@ -184,17 +184,17 @@
 </div></article></section><section class="subsection" id="subsection-11"><h3 class="heading hide-type">
 <span class="type">Subsection</span> <span class="codenumber">2.8.2</span> <span class="title">Some other stuff I've done.</span>
 </h3>
-<p id="p-247">Some stuff I've done here: <a class="external" href="https://tienchih.github.io/tbil-stats/frontmatter-1.html" target="_blank"><code class="code-inline tex2jax_ignore">https://tienchih.github.io/tbil-stats/frontmatter-1.html</code></a>.</p>
+<p id="p-216">Some stuff I've done here: <a class="external" href="https://tienchih.github.io/tbil-stats/frontmatter-1.html" target="_blank"><code class="code-inline tex2jax_ignore">https://tienchih.github.io/tbil-stats/frontmatter-1.html</code></a>.</p>
 <article class="activity project-like" id="activity-coffee-simulate"><h6 class="heading">
-<span class="type">Activity</span><span class="space"> </span><span class="codenumber">9</span><span class="period">.</span><span class="space"> </span><span class="title">Simulating Coffee Drinkers.</span>
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">8</span><span class="period">.</span><span class="space"> </span><span class="title">Simulating Coffee Drinkers.</span>
 </h6>
-<div class="introduction" id="introduction-12"><p id="p-248">Suppose that  a coffee drinkers has a 70% chance to use cream (\(P(C)\)), out of coffee drinkers who use cream, they have an 80% chance to use sugar (\(P(S|C)\)), and out of those who do not use cream, they have a 40% chance to use sugar (\(P(S|C^c)\)).</p></div>
+<div class="introduction" id="introduction-12"><p id="p-217">Suppose that  a coffee drinkers has a 70% chance to use cream (\(P(C)\)), out of coffee drinkers who use cream, they have an 80% chance to use sugar (\(P(S|C)\)), and out of those who do not use cream, they have a 40% chance to use sugar (\(P(S|C^c)\)).</p></div>
 <article class="task exercise-like" id="task-1"><h6 class="heading"><span class="codenumber">(a)</span></h6>
-<p id="p-249">Run the following code to simulate 100 random coffee drinkers and whether or not they use cream.</p>
-<p id="p-250"><div class="sagecell-r" id="sage-1"><script type="text/x-sage">cream = sample(c("cream", "no cream"), 100, replace = TRUE, prob = c(0.7, 0.3))
+<p id="p-218">Run the following code to simulate 100 random coffee drinkers and whether or not they use cream.</p>
+<p id="p-219"><div class="sagecell-r" id="sage-1"><script type="text/x-sage">cream = sample(c("cream", "no cream"), 100, replace = TRUE, prob = c(0.7, 0.3))
 </script></div></p></article><article class="task exercise-like" id="task-2"><h6 class="heading"><span class="codenumber">(b)</span></h6>
-<p id="p-251">Run the following code to simulate the coffee drinker's sugar preference, based on if they use cream.</p>
-<p id="p-252"><div class="sagecell-r" id="sage-2"><script type="text/x-sage">sugar = rep(NA, 100)
+<p id="p-220">Run the following code to simulate the coffee drinker's sugar preference, based on if they use cream.</p>
+<p id="p-221"><div class="sagecell-r" id="sage-2"><script type="text/x-sage">sugar = rep(NA, 100)
 
 for(i in 1:100){
   if(cream[i]=="cream"){
@@ -207,10 +207,10 @@ for(i in 1:100){
 
 sugar
 </script></div></p></article><article class="task exercise-like" id="task-3"><h6 class="heading"><span class="codenumber">(c)</span></h6>
-<p id="p-253">Run the following code to show coffee drinkers preferences for cream and sugar.</p>
-<p id="p-254"><div class="sagecell-r" id="sage-3"><script type="text/x-sage">table(cream,sugar)
+<p id="p-222">Run the following code to show coffee drinkers preferences for cream and sugar.</p>
+<p id="p-223"><div class="sagecell-r" id="sage-3"><script type="text/x-sage">table(cream,sugar)
 </script></div></p></article><article class="task exercise-like" id="task-4"><h6 class="heading"><span class="codenumber">(d)</span></h6>
-<p id="p-255">How do these values compare to what you found in *BLANK*?</p></article></article></section></section></div></main>
+<p id="p-224">How do these values compare to what you found in *BLANK*?</p></article></article></section></section></div></main>
 </div>
 </body>
 </html>
