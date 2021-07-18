@@ -11,5 +11,6 @@
   <xi:include href="sec_fitzpatrick.ptx"/>
   <xi:include href="sec_hibdon.ptx"/>
   <xi:include href="sec_tsinnajinnie.ptx"/>
-  <xi:include href="sec_chih.ptx" />  
+  <xi:include href="sec_chih.ptx" />
+  <xi:include href="sec_nelson.ptx" />
 </chapter>
